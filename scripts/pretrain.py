@@ -40,7 +40,7 @@ def abstract_iterator(directory_path: str):
     for file_path in files:
         for line in gzip.open(os.path.join(directory_path, file_path)):
             paper_dict = json.loads(line.strip())
-            yield {"text": paper_dict['paperAbstract']}
+            yield {"text": paper_dict["paperAbstract"]}
 
 
 def pretrain(data_dir: str,
@@ -83,10 +83,9 @@ def pretrain(data_dir: str,
         output_dir.mkdir()
         msg.good("Created output directory")
 
+    texts = list(abstract_iterator(data_dir))
 
-    texts = abstract_iterator(data_dir)
-
-    use_vectors = False
+    use_vectors = True
     dropout = 0.2
     pretrained_vectors = None if not use_vectors else nlp.vocab.vectors.name
     model = create_pretraining_model(
@@ -120,14 +119,8 @@ def pretrain(data_dir: str,
 
         with model.use_params(optimizer.averages):
             
-            nlp2 = copy.deepcopy(nlp)
-            # Be super cautious with spacy state, load it into the model _exactly_ like they do
-            binary_tok2vec = model.tok2vec.to_bytes()
-            for _, component in nlp2.pipeline:
-                if hasattr(component, "model") and hasattr(component.model, "tok2vec"):
-                    component.tok2vec.from_bytes(binary_tok2vec)
-
-            nlp2.to_disk(output_dir / epoch)
+            with (output_dir / f"model{str(epoch)}.bin").open("wb") as file_:
+                file_.write(model.tok2vec.to_bytes())
 
             log = {
                 "nr_word": tracker.nr_word,
