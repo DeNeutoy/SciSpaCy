@@ -2,6 +2,7 @@ import os
 import spacy
 import sys
 import shutil
+from pathlib import Path
 
 from tqdm import tqdm
 from spacy import util
@@ -10,6 +11,7 @@ from spacy.cli.train import _get_progress
 from spacy.vocab import Vocab
 from spacy.gold import GoldCorpus
 from spacy.language import Language
+from spacy.cli.train import _load_pretrained_tok2vec
 from wasabi import Printer
 import argparse
 import json
@@ -27,7 +29,8 @@ def train_parser_and_tagger(train_json_path: str,
                             model_output_dir: str,
                             model_path: str = None,
                             ontonotes_path: str = None,
-                            ontonotes_train_percent: float = 0.0):
+                            ontonotes_train_percent: float = 0.0,
+                            init_tok2vec: str = None):
     """Function to train the spacy parser and tagger from a blank model, with the default, en_core_web_sm vocab.
        Training setup is mostly copied from the spacy cli train command.
 
@@ -66,6 +69,13 @@ def train_parser_and_tagger(train_json_path: str,
         nlp.add_pipe(parser)
     else:
         parser = nlp.get_pipe('parser')
+
+
+    nlp.remove_pipe("combined_rule_sentence_segmenter")
+
+    if init_tok2vec is not None:
+        print(f"Loading tok2vec from {init_tok2vec}")
+        _load_pretrained_tok2vec(nlp, Path(init_tok2vec))
 
     train_corpus = GoldCorpus(train_json_path, dev_json_path)
     test_corpus = GoldCorpus(train_json_path, test_json_path)
@@ -128,7 +138,7 @@ def train_parser_and_tagger(train_json_path: str,
     msg.row(["-" * width for width in row_settings["widths"]], **row_settings)
     best_epoch = 0
     best_epoch_uas = 0.0
-    for i in range(10):
+    for i in range(20):
         random.shuffle(train_mixture)
         with nlp.disable_pipes(*other_pipes):
             with tqdm(total=n_train_words, leave=False) as pbar:
@@ -259,6 +269,12 @@ if __name__ == "__main__":
         default=0.0,
         help="Percentage of ontonotes training data to mix in with the genia data")
 
+    parser.add_argument(
+        '--init_tok2vec',
+        default=None,
+        help="Weights to initialise the tok2vec model with.")
+
+
     args = parser.parse_args()
     train_parser_and_tagger(args.train_json_path,
                             args.dev_json_path,
@@ -266,4 +282,5 @@ if __name__ == "__main__":
                             args.model_output_dir,
                             args.model_path,
                             args.ontonotes_path,
-                            args.ontonotes_train_percent)
+                            args.ontonotes_train_percent,
+                            args.init_tok2vec)

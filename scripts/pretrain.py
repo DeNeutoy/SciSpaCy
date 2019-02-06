@@ -49,6 +49,8 @@ def pretrain(data_dir: str,
              iterations: int = 10):
 
     msg = Printer()
+    has_gpu = prefer_gpu()
+    msg.info("Using GPU" if has_gpu else "Not using GPU")
 
     if model_path is not None:
         Language.factories['combined_rule_sentence_segmenter'] = lambda nlp, **cfg: combined_rule_sentence_segmenter
@@ -75,8 +77,6 @@ def pretrain(data_dir: str,
 
     util.fix_random_seed(util.env_opt("seed", 24543))
 
-    has_gpu = prefer_gpu()
-    msg.info("Using GPU" if has_gpu else "Not using GPU")
 
     output_dir = Path(model_output_dir)
     if not output_dir.exists():
@@ -105,20 +105,35 @@ def pretrain(data_dir: str,
     msg.divider("Pre-training tok2vec layer")
     row_settings = {"widths": (3, 10, 10, 6, 4), "aligns": ("r", "r", "r", "r", "r")}
     msg.row(("#", "# Words", "Total Loss", "Loss", "w/s"), **row_settings)
+
+    save_checkpoints = set()
     for epoch in range(iterations):
         for batch in util.minibatch_by_words(
-            ((text, None) for text in texts), size=3000
+            ((text, None) for text in texts), size=1000
         ):
             docs = make_docs(nlp, [text for (text, _) in batch])
             loss = make_update(model, docs, optimizer, drop=dropout)
             progress = tracker.update(epoch, loss, docs)
             if progress:
                 msg.row(progress, **row_settings)
-                if tracker.words_per_epoch[epoch] >= 10 ** 7:
-                    break
+                step_check = int(tracker.words_per_epoch[epoch] / (20 ** 8))
+                if step_check not in save_checkpoints and step_check > 0:
+                    save_checkpoints.add(step_check)
+                    with model.use_params(optimizer.averages):
+                        with (output_dir / f"model_{str(tracker.words_per_epoch[epoch])}.bin").open("wb") as file_:
+                            file_.write(model.tok2vec.to_bytes())
+
+                        log = {
+                            "nr_word": tracker.nr_word,
+                            "loss": tracker.loss,
+                            "epoch_loss": tracker.epoch_loss,
+                            "epoch": epoch,
+                        }
+                        with (output_dir / "log.jsonl").open("a") as file_:
+                            file_.write(srsly.json_dumps(log) + "\n")
+
 
         with model.use_params(optimizer.averages):
-            
             with (output_dir / f"model{str(epoch)}.bin").open("wb") as file_:
                 file_.write(model.tok2vec.to_bytes())
 
