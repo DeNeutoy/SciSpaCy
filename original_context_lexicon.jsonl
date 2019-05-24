@@ -1,0 +1,315 @@
+{"name": "absence of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "absence"}, {"LOWER": "of"}]}
+{"name": "adequate to rule her out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "adequate"}, {"LOWER": "to"}, {"LOWER": "rule"}, {"LOWER": "her"}, {"LOWER": "out"}]}
+{"name": "adequate to rule him out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "adequate"}, {"LOWER": "to"}, {"LOWER": "rule"}, {"LOWER": "him"}, {"LOWER": "out"}]}
+{"name": "adequate to rule out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "adequate"}, {"LOWER": "to"}, {"LOWER": "rule"}, {"LOWER": "out"}]}
+{"name": "adequate to rule the patient out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "adequate"}, {"LOWER": "to"}, {"LOWER": "rule"}, {"LOWER": "the"}, {"LOWER": "patient"}, {"LOWER": "out"}]}
+{"name": "although ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "although"}]}
+{"name": "any other", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "any"}, {"LOWER": "other"}]}
+{"name": "apart from ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "apart"}, {"LOWER": "from"}]}
+{"name": "are ruled out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "are"}, {"LOWER": "ruled"}, {"LOWER": "out"}]}
+{"name": "as a cause for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "a"}, {"LOWER": "cause"}, {"LOWER": "for"}]}
+{"name": "as a cause of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "a"}, {"LOWER": "cause"}, {"LOWER": "of"}]}
+{"name": "as a etiology for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "a"}, {"LOWER": "etiology"}, {"LOWER": "for"}]}
+{"name": "as a etiology of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "a"}, {"LOWER": "etiology"}, {"LOWER": "of"}]}
+{"name": "as a reason for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "a"}, {"LOWER": "reason"}, {"LOWER": "for"}]}
+{"name": "as a reason of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "a"}, {"LOWER": "reason"}, {"LOWER": "of"}]}
+{"name": "as a secondary cause for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "a"}, {"LOWER": "secondary"}, {"LOWER": "cause"}, {"LOWER": "for"}]}
+{"name": "as a secondary cause of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "a"}, {"LOWER": "secondary"}, {"LOWER": "cause"}, {"LOWER": "of"}]}
+{"name": "as a secondary etiology for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "a"}, {"LOWER": "secondary"}, {"LOWER": "etiology"}, {"LOWER": "for"}]}
+{"name": "as a secondary etiology of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "a"}, {"LOWER": "secondary"}, {"LOWER": "etiology"}, {"LOWER": "of"}]}
+{"name": "as a secondary origin for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "a"}, {"LOWER": "secondary"}, {"LOWER": "origin"}, {"LOWER": "for"}]}
+{"name": "as a secondary origin of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "a"}, {"LOWER": "secondary"}, {"LOWER": "origin"}, {"LOWER": "of"}]}
+{"name": "as a secondary reason for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "a"}, {"LOWER": "secondary"}, {"LOWER": "reason"}, {"LOWER": "for"}]}
+{"name": "as a secondary reason of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "a"}, {"LOWER": "secondary"}, {"LOWER": "reason"}, {"LOWER": "of"}]}
+{"name": "as a secondary source for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "a"}, {"LOWER": "secondary"}, {"LOWER": "source"}, {"LOWER": "for"}]}
+{"name": "as a secondary source of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "a"}, {"LOWER": "secondary"}, {"LOWER": "source"}, {"LOWER": "of"}]}
+{"name": "as a source for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "a"}, {"LOWER": "source"}, {"LOWER": "for"}]}
+{"name": "as a source of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "a"}, {"LOWER": "source"}, {"LOWER": "of"}]}
+{"name": "as an cause for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "an"}, {"LOWER": "cause"}, {"LOWER": "for"}]}
+{"name": "as an cause of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "an"}, {"LOWER": "cause"}, {"LOWER": "of"}]}
+{"name": "as an etiology for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "an"}, {"LOWER": "etiology"}, {"LOWER": "for"}]}
+{"name": "as an etiology of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "an"}, {"LOWER": "etiology"}, {"LOWER": "of"}]}
+{"name": "as an origin for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "an"}, {"LOWER": "origin"}, {"LOWER": "for"}]}
+{"name": "as an origin of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "an"}, {"LOWER": "origin"}, {"LOWER": "of"}]}
+{"name": "as an reason for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "an"}, {"LOWER": "reason"}, {"LOWER": "for"}]}
+{"name": "as an reason of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "an"}, {"LOWER": "reason"}, {"LOWER": "of"}]}
+{"name": "as an secondary cause for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "an"}, {"LOWER": "secondary"}, {"LOWER": "cause"}, {"LOWER": "for"}]}
+{"name": "as an secondary cause of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "an"}, {"LOWER": "secondary"}, {"LOWER": "cause"}, {"LOWER": "of"}]}
+{"name": "as an secondary etiology for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "an"}, {"LOWER": "secondary"}, {"LOWER": "etiology"}, {"LOWER": "for"}]}
+{"name": "as an secondary etiology of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "an"}, {"LOWER": "secondary"}, {"LOWER": "etiology"}, {"LOWER": "of"}]}
+{"name": "as an secondary origin for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "an"}, {"LOWER": "secondary"}, {"LOWER": "origin"}, {"LOWER": "for"}]}
+{"name": "as an secondary origin of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "an"}, {"LOWER": "secondary"}, {"LOWER": "origin"}, {"LOWER": "of"}]}
+{"name": "as an secondary reason for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "an"}, {"LOWER": "secondary"}, {"LOWER": "reason"}, {"LOWER": "for"}]}
+{"name": "as an secondary reason of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "an"}, {"LOWER": "secondary"}, {"LOWER": "reason"}, {"LOWER": "of"}]}
+{"name": "as an secondary source for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "an"}, {"LOWER": "secondary"}, {"LOWER": "source"}, {"LOWER": "for"}]}
+{"name": "as an secondary source of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "an"}, {"LOWER": "secondary"}, {"LOWER": "source"}, {"LOWER": "of"}]}
+{"name": "as an source for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "an"}, {"LOWER": "source"}, {"LOWER": "for"}]}
+{"name": "as an source of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "an"}, {"LOWER": "source"}, {"LOWER": "of"}]}
+{"name": "as has", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "has"}]}
+{"name": "as needed", "label": "HYPOTHETICAL", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "needed"}]}
+{"name": "as the cause for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "the"}, {"LOWER": "cause"}, {"LOWER": "for"}]}
+{"name": "as the cause of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "the"}, {"LOWER": "cause"}, {"LOWER": "of"}]}
+{"name": "as the etiology for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "the"}, {"LOWER": "etiology"}, {"LOWER": "for"}]}
+{"name": "as the etiology of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "the"}, {"LOWER": "etiology"}, {"LOWER": "of"}]}
+{"name": "as the origin for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "the"}, {"LOWER": "origin"}, {"LOWER": "for"}]}
+{"name": "as the origin of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "the"}, {"LOWER": "origin"}, {"LOWER": "of"}]}
+{"name": "as the reason for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "the"}, {"LOWER": "reason"}, {"LOWER": "for"}]}
+{"name": "as the reason of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "the"}, {"LOWER": "reason"}, {"LOWER": "of"}]}
+{"name": "as the secondary cause for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "the"}, {"LOWER": "secondary"}, {"LOWER": "cause"}, {"LOWER": "for"}]}
+{"name": "as the secondary cause of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "the"}, {"LOWER": "secondary"}, {"LOWER": "cause"}, {"LOWER": "of"}]}
+{"name": "as the secondary etiology for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "the"}, {"LOWER": "secondary"}, {"LOWER": "etiology"}, {"LOWER": "for"}]}
+{"name": "as the secondary etiology of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "the"}, {"LOWER": "secondary"}, {"LOWER": "etiology"}, {"LOWER": "of"}]}
+{"name": "as the secondary origin for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "the"}, {"LOWER": "secondary"}, {"LOWER": "origin"}, {"LOWER": "for"}]}
+{"name": "as the secondary origin of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "the"}, {"LOWER": "secondary"}, {"LOWER": "origin"}, {"LOWER": "of"}]}
+{"name": "as the secondary reason for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "the"}, {"LOWER": "secondary"}, {"LOWER": "reason"}, {"LOWER": "for"}]}
+{"name": "as the secondary reason of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "the"}, {"LOWER": "secondary"}, {"LOWER": "reason"}, {"LOWER": "of"}]}
+{"name": "as the secondary source for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "the"}, {"LOWER": "secondary"}, {"LOWER": "source"}, {"LOWER": "for"}]}
+{"name": "as the secondary source of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "the"}, {"LOWER": "secondary"}, {"LOWER": "source"}, {"LOWER": "of"}]}
+{"name": "as the source for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "the"}, {"LOWER": "source"}, {"LOWER": "for"}]}
+{"name": "as the source of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "the"}, {"LOWER": "source"}, {"LOWER": "of"}]}
+{"name": "as well as any", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "as"}, {"LOWER": "well"}, {"LOWER": "as"}, {"LOWER": "any"}]}
+{"name": "aside from ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "aside"}, {"LOWER": "from"}]}
+{"name": "be ruled out ", "label": "AMBIVALENT_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "be"}, {"LOWER": "ruled"}, {"LOWER": "out"}]}
+{"name": "be ruled out for ", "label": "AMBIVALENT_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "be"}, {"LOWER": "ruled"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "because", "label": "HYPOTHETICAL", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "because"}]}
+{"name": "being ruled out ", "label": "AMBIVALENT_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "being"}, {"LOWER": "ruled"}, {"LOWER": "out"}]}
+{"name": "but ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "but"}]}
+{"name": "can be ruled out ", "label": "AMBIVALENT_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "can"}, {"LOWER": "be"}, {"LOWER": "ruled"}, {"LOWER": "out"}]}
+{"name": "can be ruled out for ", "label": "AMBIVALENT_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "can"}, {"LOWER": "be"}, {"LOWER": "ruled"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "can rule her out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "can"}, {"LOWER": "rule"}, {"LOWER": "her"}, {"LOWER": "out"}]}
+{"name": "can rule her out against ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "can"}, {"LOWER": "rule"}, {"LOWER": "her"}, {"LOWER": "out"}, {"LOWER": "against"}]}
+{"name": "can rule her out for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "can"}, {"LOWER": "rule"}, {"LOWER": "her"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "can rule him out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "can"}, {"LOWER": "rule"}, {"LOWER": "him"}, {"LOWER": "out"}]}
+{"name": "can rule him out against ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "can"}, {"LOWER": "rule"}, {"LOWER": "him"}, {"LOWER": "out"}, {"LOWER": "against"}]}
+{"name": "can rule him out for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "can"}, {"LOWER": "rule"}, {"LOWER": "him"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "can rule out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "can"}, {"LOWER": "rule"}, {"LOWER": "out"}]}
+{"name": "can rule out against ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "can"}, {"LOWER": "rule"}, {"LOWER": "out"}, {"LOWER": "against"}]}
+{"name": "can rule out for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "can"}, {"LOWER": "rule"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "can rule the patient out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "can"}, {"LOWER": "rule"}, {"LOWER": "the"}, {"LOWER": "patient"}, {"LOWER": "out"}]}
+{"name": "can rule the patinet out against ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "can"}, {"LOWER": "rule"}, {"LOWER": "the"}, {"LOWER": "patinet"}, {"LOWER": "out"}, {"LOWER": "against"}]}
+{"name": "can rule the patinet out for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "can"}, {"LOWER": "rule"}, {"LOWER": "the"}, {"LOWER": "patinet"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "cannot ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "cannot"}]}
+{"name": "cause for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "cause"}, {"LOWER": "for"}]}
+{"name": "cause of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "cause"}, {"LOWER": "of"}]}
+{"name": "causes for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "causes"}, {"LOWER": "for"}]}
+{"name": "causes of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "causes"}, {"LOWER": "of"}]}
+{"name": "checked for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "checked"}, {"LOWER": "for"}]}
+{"name": "clear of", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "clear"}, {"LOWER": "of"}]}
+{"name": "come back for", "label": "HYPOTHETICAL", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "come"}, {"LOWER": "back"}, {"LOWER": "for"}]}
+{"name": "come back to", "label": "HYPOTHETICAL", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "come"}, {"LOWER": "back"}, {"LOWER": "to"}]}
+{"name": "complains", "label": "PSEUDOHIST", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "complains"}]}
+{"name": "could be ruled out ", "label": "AMBIVALENT_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "could"}, {"LOWER": "be"}, {"LOWER": "ruled"}, {"LOWER": "out"}]}
+{"name": "could be ruled out for ", "label": "AMBIVALENT_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "could"}, {"LOWER": "be"}, {"LOWER": "ruled"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "currently", "label": "PSEUDOHIST", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "currently"}]}
+{"name": "declined ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "declined"}]}
+{"name": "declines ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "declines"}]}
+{"name": "denied ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "denied"}]}
+{"name": "denies ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "denies"}]}
+{"name": "denying ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "denying"}]}
+{"name": "did not rule out ", "label": "AMBIVALENT_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "did"}, {"LOWER": "not"}, {"LOWER": "rule"}, {"LOWER": "out"}]}
+{"name": "did rule her out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "did"}, {"LOWER": "rule"}, {"LOWER": "her"}, {"LOWER": "out"}]}
+{"name": "did rule her out against ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "did"}, {"LOWER": "rule"}, {"LOWER": "her"}, {"LOWER": "out"}, {"LOWER": "against"}]}
+{"name": "did rule her out for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "did"}, {"LOWER": "rule"}, {"LOWER": "her"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "did rule him out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "did"}, {"LOWER": "rule"}, {"LOWER": "him"}, {"LOWER": "out"}]}
+{"name": "did rule him out against ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "did"}, {"LOWER": "rule"}, {"LOWER": "him"}, {"LOWER": "out"}, {"LOWER": "against"}]}
+{"name": "did rule him out for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "did"}, {"LOWER": "rule"}, {"LOWER": "him"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "did rule out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "did"}, {"LOWER": "rule"}, {"LOWER": "out"}]}
+{"name": "did rule out against ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "did"}, {"LOWER": "rule"}, {"LOWER": "out"}, {"LOWER": "against"}]}
+{"name": "did rule out for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "did"}, {"LOWER": "rule"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "did rule the patient out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "did"}, {"LOWER": "rule"}, {"LOWER": "the"}, {"LOWER": "patient"}, {"LOWER": "out"}]}
+{"name": "did rule the patient out against ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "did"}, {"LOWER": "rule"}, {"LOWER": "the"}, {"LOWER": "patient"}, {"LOWER": "out"}, {"LOWER": "against"}]}
+{"name": "did rule the patient out for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "did"}, {"LOWER": "rule"}, {"LOWER": "the"}, {"LOWER": "patient"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "doesn't look like", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "doesn't"}, {"LOWER": "look"}, {"LOWER": "like"}]}
+{"name": "ED", "label": "HISTORICAL", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "ED"}]}
+{"name": "emergency department", "label": "HISTORICAL", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "emergency"}, {"LOWER": "department"}]}
+{"name": "etiology for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "etiology"}, {"LOWER": "for"}]}
+{"name": "etiology of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "etiology"}, {"LOWER": "of"}]}
+{"name": "evaluate for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "evaluate"}, {"LOWER": "for"}]}
+{"name": "except ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "except"}]}
+{"name": "fails to reveal ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "fails"}, {"LOWER": "to"}, {"LOWER": "reveal"}]}
+{"name": "free ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "free"}]}
+{"name": "free of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "free"}, {"LOWER": "of"}]}
+{"name": "gram negative ", "label": "PSEUDONEG", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "gram"}, {"LOWER": "negative"}]}
+{"name": "has been negative", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "has"}, {"LOWER": "been"}, {"LOWER": "negative"}]}
+{"name": "has been ruled out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "has"}, {"LOWER": "been"}, {"LOWER": "ruled"}, {"LOWER": "out"}]}
+{"name": "have been ruled out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "have"}, {"LOWER": "been"}, {"LOWER": "ruled"}, {"LOWER": "out"}]}
+{"name": "her", "label": "PSEUDOHYPO", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "her"}]}
+{"name": "his", "label": "PSEUDOHYPO", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "his"}]}
+{"name": "history", "label": "HISTORICAL", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "history"}]}
+{"name": "history and", "label": "PSEUDOHIST", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "history"}, {"LOWER": "and"}]}
+{"name": "history and examination", "label": "PSEUDOHIST", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "history"}, {"LOWER": "and"}, {"LOWER": "examination"}]}
+{"name": "history and physical", "label": "PSEUDOHIST", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "history"}, {"LOWER": "and"}, {"LOWER": "physical"}]}
+{"name": "history for", "label": "PSEUDOHIST", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "history"}, {"LOWER": "for"}]}
+{"name": "history of chief complaint", "label": "PSEUDOHIST", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "history"}, {"LOWER": "of"}, {"LOWER": "chief"}, {"LOWER": "complaint"}]}
+{"name": "history of present illness", "label": "PSEUDOHIST", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "history"}, {"LOWER": "of"}, {"LOWER": "present"}, {"LOWER": "illness"}]}
+{"name": "history taking", "label": "PSEUDOHIST", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "history"}, {"LOWER": "taking"}]}
+{"name": "however ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "however"}]}
+{"name": "if", "label": "HYPOTHETICAL", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "if"}]}
+{"name": "if negative", "label": "PSEUDOHIST", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "if"}, {"LOWER": "negative"}]}
+{"name": "inconsistent with", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "inconsistent"}, {"LOWER": "with"}]}
+{"name": "is not", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "is"}, {"LOWER": "not"}]}
+{"name": "is ruled out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "is"}, {"LOWER": "ruled"}, {"LOWER": "out"}]}
+{"name": "is to be ruled out ", "label": "AMBIVALENT_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "is"}, {"LOWER": "to"}, {"LOWER": "be"}, {"LOWER": "ruled"}, {"LOWER": "out"}]}
+{"name": "is to be ruled out for ", "label": "AMBIVALENT_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "is"}, {"LOWER": "to"}, {"LOWER": "be"}, {"LOWER": "ruled"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "isn't", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "isn't"}]}
+{"name": "lack of", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "lack"}, {"LOWER": "of"}]}
+{"name": "lacked", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "lacked"}]}
+{"name": "may be ruled out ", "label": "AMBIVALENT_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "may"}, {"LOWER": "be"}, {"LOWER": "ruled"}, {"LOWER": "out"}]}
+{"name": "may be ruled out for ", "label": "AMBIVALENT_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "may"}, {"LOWER": "be"}, {"LOWER": "ruled"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "might be ruled out ", "label": "AMBIVALENT_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "might"}, {"LOWER": "be"}, {"LOWER": "ruled"}, {"LOWER": "out"}]}
+{"name": "might be ruled out for ", "label": "AMBIVALENT_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "might"}, {"LOWER": "be"}, {"LOWER": "ruled"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "must be ruled out ", "label": "AMBIVALENT_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "must"}, {"LOWER": "be"}, {"LOWER": "ruled"}, {"LOWER": "out"}]}
+{"name": "must be ruled out for ", "label": "AMBIVALENT_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "must"}, {"LOWER": "be"}, {"LOWER": "ruled"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "negative for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "negative"}, {"LOWER": "for"}]}
+{"name": "never developed ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "never"}, {"LOWER": "developed"}]}
+{"name": "never had ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "never"}, {"LOWER": "had"}]}
+{"name": "nevertheless ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "nevertheless"}]}
+{"name": "no ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "no"}]}
+{"name": "no abnormal ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "abnormal"}]}
+{"name": "no cause of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "cause"}, {"LOWER": "of"}]}
+{"name": "no change ", "label": "PSEUDONEG", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "change"}]}
+{"name": "no complaints of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "complaints"}, {"LOWER": "of"}]}
+{"name": "no definite change ", "label": "PSEUDONEG", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "definite"}, {"LOWER": "change"}]}
+{"name": "no evidence ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "evidence"}]}
+{"name": "no evidence to suggest ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "evidence"}, {"LOWER": "to"}, {"LOWER": "suggest"}]}
+{"name": "no findings of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "findings"}, {"LOWER": "of"}]}
+{"name": "no findings to indicate ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "findings"}, {"LOWER": "to"}, {"LOWER": "indicate"}]}
+{"name": "no history of", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "history"}, {"LOWER": "of"}]}
+{"name": "no increase ", "label": "PSEUDONEG", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "increase"}]}
+{"name": "no interval change ", "label": "PSEUDONEG", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "interval"}, {"LOWER": "change"}]}
+{"name": "no longer present", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "longer"}, {"LOWER": "present"}]}
+{"name": "no mammographic evidence of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "mammographic"}, {"LOWER": "evidence"}, {"LOWER": "of"}]}
+{"name": "no new ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "new"}]}
+{"name": "no new evidence ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "new"}, {"LOWER": "evidence"}]}
+{"name": "no other evidence ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "other"}, {"LOWER": "evidence"}]}
+{"name": "no radiographic evidence of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "radiographic"}, {"LOWER": "evidence"}, {"LOWER": "of"}]}
+{"name": "no sign of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "sign"}, {"LOWER": "of"}]}
+{"name": "no significant ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "significant"}]}
+{"name": "no significant change ", "label": "PSEUDONEG", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "significant"}, {"LOWER": "change"}]}
+{"name": "no significant interval change ", "label": "PSEUDONEG", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "significant"}, {"LOWER": "interval"}, {"LOWER": "change"}]}
+{"name": "no signs of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "signs"}, {"LOWER": "of"}]}
+{"name": "no suggestion of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "suggestion"}, {"LOWER": "of"}]}
+{"name": "no suspicious ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "suspicious"}]}
+{"name": "no suspicious change ", "label": "PSEUDONEG", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "no"}, {"LOWER": "suspicious"}, {"LOWER": "change"}]}
+{"name": "non diagnostic", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "non"}, {"LOWER": "diagnostic"}]}
+{"name": "not ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "not"}]}
+{"name": "not appear ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "appear"}]}
+{"name": "not appreciate ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "appreciate"}]}
+{"name": "not associated with ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "associated"}, {"LOWER": "with"}]}
+{"name": "not been ruled out ", "label": "AMBIVALENT_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "been"}, {"LOWER": "ruled"}, {"LOWER": "out"}]}
+{"name": "not cause ", "label": "PSEUDONEG", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "cause"}]}
+{"name": "not certain if ", "label": "PSEUDONEG", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "certain"}, {"LOWER": "if"}]}
+{"name": "not certain whether ", "label": "PSEUDONEG", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "certain"}, {"LOWER": "whether"}]}
+{"name": "not complain of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "complain"}, {"LOWER": "of"}]}
+{"name": "not demonstrate ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "demonstrate"}]}
+{"name": "not drain ", "label": "PSEUDONEG", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "drain"}]}
+{"name": "not exhibit ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "exhibit"}]}
+{"name": "not extend ", "label": "PSEUDONEG", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "extend"}]}
+{"name": "not feel ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "feel"}]}
+{"name": "not had ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "had"}]}
+{"name": "not have ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "have"}]}
+{"name": "not have evidence of", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "have"}, {"LOWER": "evidence"}, {"LOWER": "of"}]}
+{"name": "not know of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "know"}, {"LOWER": "of"}]}
+{"name": "not known to have ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "known"}, {"LOWER": "to"}, {"LOWER": "have"}]}
+{"name": "not necessarily ", "label": "PSEUDONEG", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "necessarily"}]}
+{"name": "not on", "label": "PSEUDONEG", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "on"}]}
+{"name": "not only ", "label": "PSEUDONEG", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "only"}]}
+{"name": "not reveal ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "reveal"}]}
+{"name": "not ruled out ", "label": "AMBIVALENT_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "ruled"}, {"LOWER": "out"}]}
+{"name": "not see ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "see"}]}
+{"name": "not to be ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "not"}, {"LOWER": "to"}, {"LOWER": "be"}]}
+{"name": "noted", "label": "PSEUDOHIST", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "noted"}]}
+{"name": "now resolved", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "now"}, {"LOWER": "resolved"}]}
+{"name": "origin for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "origin"}, {"LOWER": "for"}]}
+{"name": "origin of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "origin"}, {"LOWER": "of"}]}
+{"name": "origins for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "origins"}, {"LOWER": "for"}]}
+{"name": "origins of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "origins"}, {"LOWER": "of"}]}
+{"name": "other possibilities of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "other"}, {"LOWER": "possibilities"}, {"LOWER": "of"}]}
+{"name": "ought to be ruled out ", "label": "AMBIVALENT_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "ought"}, {"LOWER": "to"}, {"LOWER": "be"}, {"LOWER": "ruled"}, {"LOWER": "out"}]}
+{"name": "ought to be ruled out for ", "label": "AMBIVALENT_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "ought"}, {"LOWER": "to"}, {"LOWER": "be"}, {"LOWER": "ruled"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "past history", "label": "HISTORICAL", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "past"}, {"LOWER": "history"}]}
+{"name": "past medical history", "label": "HISTORICAL", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "past"}, {"LOWER": "medical"}, {"LOWER": "history"}]}
+{"name": "patient", "label": "PSEUDOHYPO", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "patient"}]}
+{"name": "patient was not ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "patient"}, {"LOWER": "was"}, {"LOWER": "not"}]}
+{"name": "patient's", "label": "PSEUDOHYPO", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "patient's"}]}
+{"name": "poor history", "label": "PSEUDOHIST", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "poor"}, {"LOWER": "history"}]}
+{"name": "presenting", "label": "PSEUDOHIST", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "presenting"}]}
+{"name": "presents", "label": "PSEUDOHIST", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "presents"}]}
+{"name": "prophylaxis", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "prophylaxis"}]}
+{"name": "r/o ", "label": "AMBIVALENT_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "r/o"}]}
+{"name": "rather than ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "rather"}, {"LOWER": "than"}]}
+{"name": "reason for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "reason"}, {"LOWER": "for"}]}
+{"name": "reason of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "reason"}, {"LOWER": "of"}]}
+{"name": "reasons for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "reasons"}, {"LOWER": "for"}]}
+{"name": "reasons of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "reasons"}, {"LOWER": "of"}]}
+{"name": "reported", "label": "PSEUDOHIST", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "reported"}]}
+{"name": "reports", "label": "PSEUDOHIST", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "reports"}]}
+{"name": "resolved ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "resolved"}]}
+{"name": "return", "label": "HYPOTHETICAL", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "return"}]}
+{"name": "ro ", "label": "AMBIVALENT_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "ro"}]}
+{"name": "rule her out ", "label": "AMBIVALENT_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "rule"}, {"LOWER": "her"}, {"LOWER": "out"}]}
+{"name": "rule her out for ", "label": "AMBIVALENT_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "rule"}, {"LOWER": "her"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "rule him out ", "label": "AMBIVALENT_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "rule"}, {"LOWER": "him"}, {"LOWER": "out"}]}
+{"name": "rule him out for ", "label": "AMBIVALENT_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "rule"}, {"LOWER": "him"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "rule out ", "label": "AMBIVALENT_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "rule"}, {"LOWER": "out"}]}
+{"name": "rule out for ", "label": "AMBIVALENT_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "rule"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "rule the patient out ", "label": "AMBIVALENT_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "rule"}, {"LOWER": "the"}, {"LOWER": "patient"}, {"LOWER": "out"}]}
+{"name": "rule the patinet out for ", "label": "AMBIVALENT_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "rule"}, {"LOWER": "the"}, {"LOWER": "patinet"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "ruled her out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "ruled"}, {"LOWER": "her"}, {"LOWER": "out"}]}
+{"name": "ruled her out against ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "ruled"}, {"LOWER": "her"}, {"LOWER": "out"}, {"LOWER": "against"}]}
+{"name": "ruled her out for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "ruled"}, {"LOWER": "her"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "ruled him out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "ruled"}, {"LOWER": "him"}, {"LOWER": "out"}]}
+{"name": "ruled him out against ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "ruled"}, {"LOWER": "him"}, {"LOWER": "out"}, {"LOWER": "against"}]}
+{"name": "ruled him out for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "ruled"}, {"LOWER": "him"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "ruled out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "ruled"}, {"LOWER": "out"}]}
+{"name": "ruled out against ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "ruled"}, {"LOWER": "out"}, {"LOWER": "against"}]}
+{"name": "ruled out for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "ruled"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "ruled the patient out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "ruled"}, {"LOWER": "the"}, {"LOWER": "patient"}, {"LOWER": "out"}]}
+{"name": "ruled the patient out against ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "ruled"}, {"LOWER": "the"}, {"LOWER": "patient"}, {"LOWER": "out"}, {"LOWER": "against"}]}
+{"name": "ruled the patient out for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "ruled"}, {"LOWER": "the"}, {"LOWER": "patient"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "rules her out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "rules"}, {"LOWER": "her"}, {"LOWER": "out"}]}
+{"name": "rules her out for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "rules"}, {"LOWER": "her"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "rules him out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "rules"}, {"LOWER": "him"}, {"LOWER": "out"}]}
+{"name": "rules him out for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "rules"}, {"LOWER": "him"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "rules out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "rules"}, {"LOWER": "out"}]}
+{"name": "rules out for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "rules"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "rules the patient out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "rules"}, {"LOWER": "the"}, {"LOWER": "patient"}, {"LOWER": "out"}]}
+{"name": "rules the patient out for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "rules"}, {"LOWER": "the"}, {"LOWER": "patient"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "secondary", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "secondary"}]}
+{"name": "secondary to", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "secondary"}, {"LOWER": "to"}]}
+{"name": "should be ruled out ", "label": "AMBIVALENT_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "should"}, {"LOWER": "be"}, {"LOWER": "ruled"}, {"LOWER": "out"}]}
+{"name": "should be ruled out for ", "label": "AMBIVALENT_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "should"}, {"LOWER": "be"}, {"LOWER": "ruled"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "should he", "label": "HYPOTHETICAL", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "should"}, {"LOWER": "he"}]}
+{"name": "should she", "label": "HYPOTHETICAL", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "should"}, {"LOWER": "she"}]}
+{"name": "should the patient", "label": "HYPOTHETICAL", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "should"}, {"LOWER": "the"}, {"LOWER": "patient"}]}
+{"name": "should there", "label": "HYPOTHETICAL", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "should"}, {"LOWER": "there"}]}
+{"name": "since", "label": "HYPOTHETICAL", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "since"}]}
+{"name": "social history", "label": "PSEUDOHIST", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "social"}, {"LOWER": "history"}]}
+{"name": "source for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "source"}, {"LOWER": "for"}]}
+{"name": "source of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "source"}, {"LOWER": "of"}]}
+{"name": "sources for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "sources"}, {"LOWER": "for"}]}
+{"name": "sources of ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "sources"}, {"LOWER": "of"}]}
+{"name": "states", "label": "PSEUDOHIST", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "states"}]}
+{"name": "still ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "still"}]}
+{"name": "sudden onset of", "label": "PSEUDOHIST", "direction": "forwards", "regex": null, "spacy_match": [{"LOWER": "sudden"}, {"LOWER": "onset"}, {"LOWER": "of"}]}
+{"name": "sufficient to rule her out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "sufficient"}, {"LOWER": "to"}, {"LOWER": "rule"}, {"LOWER": "her"}, {"LOWER": "out"}]}
+{"name": "sufficient to rule her out against ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "sufficient"}, {"LOWER": "to"}, {"LOWER": "rule"}, {"LOWER": "her"}, {"LOWER": "out"}, {"LOWER": "against"}]}
+{"name": "sufficient to rule her out for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "sufficient"}, {"LOWER": "to"}, {"LOWER": "rule"}, {"LOWER": "her"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "sufficient to rule him out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "sufficient"}, {"LOWER": "to"}, {"LOWER": "rule"}, {"LOWER": "him"}, {"LOWER": "out"}]}
+{"name": "sufficient to rule him out against ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "sufficient"}, {"LOWER": "to"}, {"LOWER": "rule"}, {"LOWER": "him"}, {"LOWER": "out"}, {"LOWER": "against"}]}
+{"name": "sufficient to rule him out for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "sufficient"}, {"LOWER": "to"}, {"LOWER": "rule"}, {"LOWER": "him"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "sufficient to rule out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "sufficient"}, {"LOWER": "to"}, {"LOWER": "rule"}, {"LOWER": "out"}]}
+{"name": "sufficient to rule out against ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "sufficient"}, {"LOWER": "to"}, {"LOWER": "rule"}, {"LOWER": "out"}, {"LOWER": "against"}]}
+{"name": "sufficient to rule out for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "sufficient"}, {"LOWER": "to"}, {"LOWER": "rule"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "sufficient to rule the patient out ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "sufficient"}, {"LOWER": "to"}, {"LOWER": "rule"}, {"LOWER": "the"}, {"LOWER": "patient"}, {"LOWER": "out"}]}
+{"name": "sufficient to rule the patient out against ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "sufficient"}, {"LOWER": "to"}, {"LOWER": "rule"}, {"LOWER": "the"}, {"LOWER": "patient"}, {"LOWER": "out"}, {"LOWER": "against"}]}
+{"name": "sufficient to rule the patient out for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "sufficient"}, {"LOWER": "to"}, {"LOWER": "rule"}, {"LOWER": "the"}, {"LOWER": "patient"}, {"LOWER": "out"}, {"LOWER": "for"}]}
+{"name": "test for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "test"}, {"LOWER": "for"}]}
+{"name": "though ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "though"}]}
+{"name": "to exclude ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "to"}, {"LOWER": "exclude"}]}
+{"name": "today", "label": "PSEUDOHIST", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "today"}]}
+{"name": "trigger event for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "trigger"}, {"LOWER": "event"}, {"LOWER": "for"}]}
+{"name": "unlikely ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "unlikely"}]}
+{"name": "unremarkable for ", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "forward", "regex": null, "spacy_match": [{"LOWER": "unremarkable"}, {"LOWER": "for"}]}
+{"name": "was found", "label": "PSEUDOHIST", "direction": "terminate", "regex": null, "spacy_match": [{"LOWER": "was"}, {"LOWER": "found"}]}
+{"name": "was negative", "label": "DEFINITE_NEGATED_EXISTENCE", "direction": "backward", "regex": null, "spacy_match": [{"LOWER": "was"}, {"LOWER": "negative"}]}
